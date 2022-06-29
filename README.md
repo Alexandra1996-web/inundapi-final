@@ -16,18 +16,41 @@ A continuación, se puede ver el formato en el que ingresa la información para 
 
 
 [
+
+
 {
+
+
         "fecha": "2022-02-01 10:00:00 PYST",
+        
+        
         "nivel": -0.2,
+        
+        
         "conductividad": null,
+        
         "ph": null,
+        
+        
         "turbidez": null,
+        
+       
         "od": null,
+        
+        
         "tempagua": null,
+        
+        
+        
         "created_at": "2022-02-01 11:00:21 PYST",
+        
+        
         "obs": null
+        
+        
     },
 ]
+
 
 Tecnologías utilizadas para el proyecto 
 
@@ -39,6 +62,8 @@ Flask
 Sqlite sqlalchemy
 Django REST
 Tailwind
+
+
 Autores:
 
 -Fabiola Belén Balbuena Morínigo
@@ -51,6 +76,10 @@ Autores:
 
 -Pilar Edith Castellano Lugo
 
+
+
 Coaches de Desarrollo: Alexandra Cáceres y Sergio García
+
+
 
 Licencia Open Source
