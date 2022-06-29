@@ -3,7 +3,16 @@
 
 DOCUMENTACIÓN PRELIMINAR DE INUNDAPI
 
--DESCRIPCIÓN INUNDAPI Esta API endpoit pretende dar fácil acceso a las personas o entidades encargadas de las tomas de decisiones en casos de inundación la optimización de acciones y dar a conocer los posibles usos y aplicaciones de la información condesada en la API. -OBTENCIÓN DE INFORMACIÓN La fuente de información es obtenida a partir de API endpoit de páginas con información sobre meteorología e hidrología, en la fase inicial del proyecto se tomó como fuente de información la página de Centro Internacional de Hidroinformática – CIH de la ITAIPU Binacional https://hidroinformatica.itaipu.gov.py/docs/. Para este prototipo se trabajó con las siguientes API Endpoint:
+-DESCRIPCIÓN INUNDAPI 
+
+Esta API endpoit pretende dar fácil acceso a las personas o entidades encargadas de las tomas de decisiones en casos de inundación la optimización de acciones y dar a conocer los posibles usos y aplicaciones de la información condesada en la API.
+
+-OBTENCIÓN DE INFORMACIÓN
+
+La fuente de información es obtenida a partir de API endpoit de páginas con información sobre meteorología e hidrología, en la fase inicial del proyecto se tomó como fuente de información la página de Centro Internacional de Hidroinformática – CIH de la ITAIPU Binacional https://hidroinformatica.itaipu.gov.py/docs/. 
+
+
+Para este prototipo se trabajó con las siguientes API Endpoint:
 
 /services/hidrometricaestacion/<fecha>/<fechasig>/<estacion>/
 La API endpoint de estaciones hidrométricas: retorna una lista con datos hidrométricos (Nivel (m), Conductividad (mS/cm), pH, Turbidez (NTU), Oxígendo Dis.(ppm), Temperatura (°C)) de una estacíon <estacion>, desde <fecha> hasta <fechasig>. Formato de fecha yyyy-mm-dd.
