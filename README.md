@@ -78,7 +78,7 @@ Autores:
 
 
 
-Coaches de Desarrollo: Alexandra Cáceres y Sergio García
+Coaches de Desarrollo: Alexandra Cáceres, Sergio García, Claudia Melgarejo
 
 
 
